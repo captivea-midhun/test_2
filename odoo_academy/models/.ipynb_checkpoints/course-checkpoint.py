@@ -6,8 +6,8 @@ from odoo import models, fields, api      # You usually want to import these thr
 class Course(models.Model):     # Inherit abstract model: models.Model
     
     # Define model attributes
-    _name = 'academy.course'
-    _description = 'Course Info'
+    _name = 'academy.course'           # Name of model
+    _description = 'Course Info'       # Model Description
     
     # Initialize fields
     name = fields.Char(string='Title', required=True)
