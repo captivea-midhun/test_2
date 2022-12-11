@@ -12,7 +12,7 @@ class Course(models.Model):     # Inherit abstract model: models.Model
     # Initialize fields
     name = fields.Char(string='Title', required=True)
     description = fields.Text(string='Description')
-    level = fields.Selection(string='Level2',
+    level = fields.Selection(string='Level',
                              selection= [('beginner', 'Beginner'),
                                          ('intermediate', 'Inermediate'),
                                          ('advanced', 'Advanced')],
