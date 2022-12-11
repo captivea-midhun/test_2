@@ -21,13 +21,14 @@
     
     'depends': ['base'],
     
-    'data': [       # Odoo loads files in order, so make sure you specify the xml file first.
-        'security/academy_security.xml',  
-        'security/ir.model.access.csv
+    'data': [       # Note that Odoo loads files in the order you specify
+        'security/academy_security.xml',
+        'security/ir.model.access.csv',
+        'views/academy_menuitems.xml'
     ],
     
     'demo': [                       # How to link .xml files to the manifest
         'demo/academy_demo.xml'
     ],
-    
+
 }
