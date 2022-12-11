@@ -26,7 +26,7 @@
     ],
     
     'demo': [                       # How to link .xml files to the manifest
-        'demo/academy_demo.xml'
+
     ],
     
 }
